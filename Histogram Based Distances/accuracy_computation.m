@@ -1,0 +1,9 @@
+a=importdata("sameScore.txt");
+b=importdata("differntScores.txt");
+A=[a.data];
+B=[b.data];
+[acc_val_dist1] = accuracyPlots(A(:,1),B(:,1),1);
+[acc_val_dist2] = accuracyPlots(A(:,2),B(:,2),1);
+[acc_val_dist3] = accuracyPlots(A(:,3),B(:,3),1);
+[acc_val_dist4] = accuracyPlots(A(:,4),B(:,4),1);
+[acc_val_dist5] = accuracyPlots(A(:,5),B(:,5),1);
