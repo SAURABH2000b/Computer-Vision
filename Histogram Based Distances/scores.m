@@ -2,7 +2,7 @@
 %while others being the training images, then we will compute the scores/distances
 %of each of these images with images of their own class and with images of other class.
 %we store these results based on same class distances and different class distances in
-%two different text files SameScore.txt and DifferentScores.txt in the format:
+%two different text files sameScore.txt and differentScores.txt in the format:
 %<test_file_name> <train_file_name> dist1 dist2 dist3 dist4 dist5
 %where dist[1:5] are the distances returned from histDist() function.
 %this data will be used to compute the accuracy of each of these distance measures.
